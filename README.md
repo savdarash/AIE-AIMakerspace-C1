@@ -1,3 +1,3 @@
 # LLMOPS
 
-Temporary Homework repo for LLM ops
+Temporary Homework repo for AI engineering
