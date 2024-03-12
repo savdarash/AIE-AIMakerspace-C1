@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-02-29T19:49:12.529391",
+    "startedAt": "2024-02-29T19:49:10.939498",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Python RAQA Example.ipynb",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/savdarash/LLMOPS.git",
+        "commit": "870d3159f7d5c965d2e81ba41c2e9dfe9bf1574b"
+    },
+    "email": "savrindarash@gmail.com",
+    "root": "C:/Users/SavrinD/Documents/GitHub/Homework/Week 2",
+    "host": "DESKTOP-06LERVO",
+    "username": "SavrinD",
+    "executable": "c:\\Users\\SavrinD\\Anaconda3\\envs\\llmops-course\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1792.0,
+        "min": 0.0,
+        "max": 1992.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1792.0,
+            "min": 0.0,
+            "max": 1992.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 916.4345664978027,
+            "used": 415.83026123046875
+        }
+    },
+    "memory": {
+        "total": 11.899700164794922
+    }
+}
