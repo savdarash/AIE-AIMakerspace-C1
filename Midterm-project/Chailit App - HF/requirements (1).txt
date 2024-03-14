@@ -1,0 +1,14 @@
+langchain
+langchain-community
+tiktoken
+pypdf
+chainlit
+openai
+tiktoken
+langchainhub
+langchain_core 
+ragas
+pymupdf
+faiss_cpu
+pandas
+chromadb
