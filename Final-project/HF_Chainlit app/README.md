@@ -1,8 +1,8 @@
 ---
-title: My First RAG
-emoji: 🚀
-colorFrom: purple
-colorTo: pink
+title: Audit Assisstant
+emoji: 🌖
+colorFrom: gray
+colorTo: yellow
 sdk: docker
 pinned: false
 license: mit

@@ -41,6 +41,7 @@ prompt = ChatPromptTemplate.from_messages(messages)
 chain_type_kwargs = {"prompt": prompt}
 
 
+
 def process_pdf_from_link(link: str):
     # Download the PDF from the link
     pdf_loader = PyMuPDFLoader(link)
@@ -52,8 +53,12 @@ def process_pdf_from_link(link: str):
 @cl.on_chat_start
 async def on_chat_start():
     # Process the PDF from the link
-    link = "https://ir.tesla.com/_flysystem/s3/sec/000119312523094075/d451342ddef14a-gen.pdf"
-    texts = process_pdf_from_link(link)
+    link_23 = "https://ir.tesla.com/_flysystem/s3/sec/000119312523094075/d451342ddef14a-gen.pdf"
+    link_22 = "https://ir.tesla.com/_flysystem/s3/sec/000156459022024064/tsla-def14a_20220804-gen.pdf"
+    text1= process_pdf_from_link(link_23)
+    text2 = process_pdf_from_link(link_22)
+    texts = text1 + text2
+
 
     # Create metadata for each chunk
     metadatas = [{"source": f"{i}-pl"} for i in range(len(texts))]
